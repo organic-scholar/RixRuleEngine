@@ -1,0 +1,16 @@
+{
+    "name": "rix/rule-engine",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nauman",
+            "email": "nauman1225@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Rix\\RuleEngine\\": "src"
+        }
+    }
+}
