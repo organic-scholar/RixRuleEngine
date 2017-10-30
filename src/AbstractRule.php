@@ -16,7 +16,7 @@ abstract class AbstractRule
     /**
      * @return boolean
      */
-    public function orOp()
+    public function orX()
     {
         $args = func_get_args();
         if(count($args) === 0) return false;
@@ -28,7 +28,7 @@ abstract class AbstractRule
     /**
      * @return boolean
      */
-    public function andOp()
+    public function andX()
     {
         $args = func_get_args();
         if(count($args) === 0) return false;

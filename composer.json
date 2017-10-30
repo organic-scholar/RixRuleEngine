@@ -7,7 +7,9 @@
             "email": "nauman1225@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "psr/container": "^1.0"
+    },
     "autoload":{
         "psr-4":{
             "Rix\\RuleEngine\\": "src"
